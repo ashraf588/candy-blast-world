@@ -1,21 +1,16 @@
-CANDY BLAST WORLD — ANDROID WRAPPER PROJECT
+Candy Blast World - V16
 
-Yeh V15 game ko Capacitor ke zariye Android app project mein package karta hai.
-Package ID: com.candyblastworld.game
+V16 mein shamil:
+- Daily Login Reward: har local calendar day 50 coins.
+- Bomb Booster: 60 coins, selected candy ke aas paas 3x3 area clear.
+- Hammer Booster: 35 coins, selected candy clear.
+- Color Blast: 75 coins, selected candy ke tamam same-colour candies clear.
+- Existing swipe/tap gameplay, levels, coins, sounds aur local progress save barqarar.
 
-MOBILE/CLOUD BUILD KA TAREEQA:
-1) ZIP ko extract karein.
-2) GitHub par naya PRIVATE repository banayein aur is folder ki tamam files upload karein.
-3) Repository ke Actions tab mein “Candy Blast World Android Build” workflow run karein.
-4) Workflow complete hone par Artifacts se app-debug.apk download karke Android phone par install/test karein.
+GitHub Pages update:
+1. Repository candy-blast-world kholen.
+2. index.html ko replace/upload karein.
+3. Commit changes karein.
+4. GitHub Pages ko update hone ke liye kuch minute dein.
 
-PLAY STORE AAB:
-Release AAB ke liye apni upload keystore banani aur GitHub repository Settings > Secrets and variables > Actions mein yeh secrets add karne hain:
-ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD
-Keystore ko safe backup karein; ise kisi ke saath share na karein. Secrets set hone par workflow signed app-release.aab bhi banata hai.
-
-IMPORTANT:
-- Is package mein abhi AdMob SDK/Ad Unit IDs integrate nahi hain.
-- APK/AAB build is waqt run nahi hua; GitHub Actions mein cloud build karna hoga.
-- App ko Play Store par submit karne se pehle real Android devices par gameplay, screen sizes, offline behaviour aur privacy policy test karein.
-- Google Play Console ki current target API, testing aur account verification requirements publish karte waqt check karein.
+Note: progress is device/browser ke local storage mein save hoti hai. Browser data clear karne se local progress reset ho sakti hai.
