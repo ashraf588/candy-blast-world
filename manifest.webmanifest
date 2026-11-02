@@ -1,0 +1,11 @@
+{
+  "name": "Candy Blast World",
+  "short_name": "Candy Blast",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#24104b",
+  "theme_color": "#6b3bc7",
+  "icons": [
+    {"src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

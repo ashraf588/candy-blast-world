@@ -1,0 +1,7 @@
+{
+  "appId": "com.candyblastworld.game",
+  "appName": "Candy Blast World",
+  "webDir": ".",
+  "server": { "androidScheme": "https" },
+  "android": { "allowMixedContent": false }
+}
