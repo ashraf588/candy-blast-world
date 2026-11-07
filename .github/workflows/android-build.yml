@@ -33,7 +33,10 @@ jobs:
 
       - name: Build web assets
         run: npm run build
-
+      - name: Prepare web assets
+        run: |
+          mkdir -p www
+          cp index.html www/index.html
       - name: Add Android platform
         run: npx cap add android
 
